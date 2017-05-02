@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "name": "vuemarket",
+  "description": "Fantastic Vue Components and Libraries.",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": {
+    "url": "sinchang/vuemarket",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "echo lol",
+    "lint": "xo",
+    "dev": "poi",
+    "build": "poi build",
+    "surge": "npm run build && surge -p dist -d vuemarket.surge.sh"
+  },
+  "xo": {
+    "extends": "vue-app",
+    "extensions": [
+      "vue",
+      "js"
+    ],
+    "rules": {
+      "unicorn/filename-case": 0,
+      "import/no-unresolved": 0,
+      "import/no-extraneous-dependencies": 0
+    }
+  },
+  "devDependencies": {
+    "poi": "^8.0.0-rc.3",
+    "eslint-config-vue-app": "^1.2.1",
+    "xo": "^0.18.1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "vue-github-badge": "^1.0.0"
+  }
+}
