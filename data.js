@@ -77,7 +77,7 @@ export default [{
       'ui',
       'components'
     ],
-    'description': 'Baidu Map components for Vue 2.x'
+    'description': 'Mobile UI Components, based on Vue.js and ionic CSS'
   },
   {
     'name': 'vue-amap',

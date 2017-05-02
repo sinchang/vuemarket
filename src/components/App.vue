@@ -48,7 +48,7 @@
           return repo.name.toLowerCase().indexOf(this.keyword) > -1 ||
             repo.description.toLowerCase().indexOf(this.keyword) > -1 ||
             repo.tags.indexOf(this.keyword) > -1 ||
-            repo.author.indexOf(this.keyword) > -1
+            repo.author.toLowerCase().indexOf(this.keyword) > -1
         })
       }, 300)
     },
