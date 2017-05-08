@@ -128,5 +128,17 @@ export default [{
       'components'
     ],
     'description': 'Vue UI Components based on WeUI'
+  },
+  {
+    'name': 'vant',
+    'url': 'https://github.com/youzan/vant',
+    'author': 'youzan',
+    'tags': [
+      'vue',
+      'ui-kit',
+      'mobile',
+      'components'
+    ],
+    'description': 'A Vue.js 2.0 Mobile UI at YouZan'
   }
 ]

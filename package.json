@@ -30,6 +30,7 @@
   "devDependencies": {
     "poi": "^8.0.0-rc.3",
     "eslint-config-vue-app": "^1.2.1",
+    "surge": "^0.19.0",
     "xo": "^0.18.1"
   },
   "license": "MIT",

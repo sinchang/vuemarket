@@ -1,6 +1,8 @@
-# vuemarket
+# vuemarket 
 
-> Fantastic Vue Components and Libraries.
+> Fantastic Vue Components and Libraries. 
+
+[![Build Status](https://travis-ci.org/sinchang/vuemarket.svg?branch=master)](https://travis-ci.org/sinchang/vuemarket)
 
 ## Submitting new libraries and components
 
