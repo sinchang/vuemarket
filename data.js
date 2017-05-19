@@ -140,5 +140,17 @@ export default [{
       'components'
     ],
     'description': 'A Vue.js 2.0 Mobile UI at YouZan'
-  }
+  },
+  {
+    'name': 'muse-ui',
+    'url': 'https://github.com/museui/muse-ui',
+    'author': 'museui',
+    'tags': [
+      'vue',
+      'ui-kit',
+      'Material Design',
+      'components'
+    ],
+    'description': 'Material Design UI library for Vuejs 2.0'
+  }            
 ]
